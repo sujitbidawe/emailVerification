@@ -2,7 +2,7 @@
 
 shopt -s extglob
 
-emailPattern="^([a-z]{3,}[0-9a-z]*)"
+emailPattern="^([a-z]{1,}[0-9a-z]{0,}[@]{1}[a-z]{1,})"
 
 read -p "enter a pin code to validate: " email
 
